@@ -1,0 +1,39 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculadora{
+    background-color: white;
+    height: 60vh;
+    width: 25vw;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.addNota{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.armazemNota textarea{
+    height: 15rem;
+    width: 100%;
+    border: 1px solid black;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.botaoCalcMedia{
+    margin-top: 1.5rem;
+}
+
+button{
+    cursor: pointer;
+}
